@@ -264,7 +264,7 @@ nav ul li a {
 .membership-card {
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .membership-card img {
@@ -290,12 +290,12 @@ nav ul li a {
   color: white;
 }
 
-.membership > section title h2{
+.membership > section title h2 {
   color: white;
 }
 
 .membership-button button {
-  background-color: #C271FF;
+  background-color: #c271ff;
   color: white;
   border: none;
   border-radius: 30px;
