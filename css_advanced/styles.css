@@ -54,7 +54,7 @@ nav ul li a {
   font-size: 120px;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  font-family: sans-serif ;
+  font-family: sans-serif;
 }
 
 .hero-content .tags {
@@ -111,7 +111,7 @@ nav ul li a {
 }
 
 .testimonial {
-  background-color: #C271FF;
+  background-color: #c271ff;
   padding: 4rem 2rem;
   display: flex;
   justify-content: center;
@@ -133,7 +133,6 @@ nav ul li a {
 }
 
 .testimonial-text q {
-
   font-size: 1.2rem;
   display: block;
   margin-bottom: 1.2rem;
@@ -152,4 +151,161 @@ nav ul li a {
   margin: 0.25rem 0 0;
   font-size: 1rem;
   color: white;
+}
+
+.popular {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Section title */
+.popular .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+/* Horizontal grid for tutorial cards */
+.tutorials-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card container */
+.tutorial-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Thumbnail and play overlay */
+.tutorial-thumb-wrapper {
+  position: relative;
+}
+
+.tutorial-thumb {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 48px;
+  height: 48px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* Tutorial text content */
+.tutorial-card h3 {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.tutorial-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.tutorial-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.tutorial-author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.tutorial-author h4 {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #333;
+}
+
+.tutorial-rating {
+  color: gold;
+  margin: 0.4rem 0;
+}
+
+.tutorial-duration {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.membership {
+  padding: 4rem 2rem;
+  background-color: #071629;
+  text-align: center;
+}
+
+.membership-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 2rem auto 3rem;
+}
+
+.membership-card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.membership-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.membership-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.membership-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.membership-card p {
+  font-size: 0.95rem;
+  color: white;
+}
+
+.membership > section title h2{
+  color: white;
+}
+
+.membership-button button {
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.membership-button button:hover {
+  background-color: #e53945;
 }
